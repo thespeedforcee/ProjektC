@@ -35,6 +35,10 @@ int main() {
         }
         else if (event.type == ALLEGRO_EVENT_TIMER) {
             move_snake(&game);
+
+            double moves_per_second = 8.0 + (game.score / 10.0) * 0.5;
+            al_set_timer_speed(timer, 1.0 / moves_per_second);
+
             redraw = true;
         }
         else if (event.type == ALLEGRO_EVENT_KEY_DOWN) {
