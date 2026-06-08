@@ -9,7 +9,7 @@
 | Field | Details |
 | :--- | :--- |
 | **Course** | Low-Level Programming in C |
-| **Instructor** | Dr hab. Eng. A. Rybarczyk |
+| **Instructor** | Dr hab. inż. A. Rybarczyk |
 | **Academic Year** | 2025/2026 |
 | **Format** | Pair project |
 
