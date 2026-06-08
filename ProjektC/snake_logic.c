@@ -2,15 +2,15 @@
 #include <stdlib.h> 
 
 void init_game(SnakeGame* game) {
-    game->dir = DIR_RIGHT;   
+    game->dir = DIR_RIGHT;
     game->score = 0;
     game->game_over = false;
-    game->apple_x = 15;      
+    game->apple_x = 15;
     game->apple_y = 10;
 
     SnakeSegment* new_head = (SnakeSegment*)malloc(sizeof(SnakeSegment));
     if (new_head != NULL) {
-        new_head->x = 10;    
+        new_head->x = 10;
         new_head->y = 10;
         new_head->next = NULL;
     }
