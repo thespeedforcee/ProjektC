@@ -143,6 +143,8 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\file_operations.c" />
+    <ClCompile Include="src\gui.c" />
     <ClCompile Include="src\main.c" />
     <ClCompile Include="src\snake_logic.c" />
   </ItemGroup>
@@ -150,6 +152,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\file_operations.h" />
+    <ClInclude Include="include\gui.h" />
     <ClInclude Include="include\snake_logic.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

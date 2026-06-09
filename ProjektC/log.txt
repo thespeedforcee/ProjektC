@@ -6,3 +6,5 @@
 [LOG]: Uruchomiono gre Snake.
 [LOG]: Koniec gry - waz uderzyl w przeszkode lub samego siebie.
 [LOG]: Uruchomiono gre Snake.
+[LOG]: Uruchomiono gre Snake.
+[LOG]: Uruchomiono gre Snake.
