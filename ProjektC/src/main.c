@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_primitives.h>
-#include "snake_logic.h"
+#include "../include/snake_logic.h"
 #include <allegro5/allegro_font.h>
 #include <time.h>
 

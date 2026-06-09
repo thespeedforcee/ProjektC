@@ -1,4 +1,4 @@
-#include "snake_logic.h"
+#include "../include/snake_logic.h"
 #include <stdlib.h> 
 
 void init_game(SnakeGame* game) {
