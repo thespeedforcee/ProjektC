@@ -16,7 +16,7 @@
 ## 📖 Project Description
 An interactive, low-level programming project implemented entirely in C, featuring modular architecture, dynamic memory management, robust error handling, and a graphical user interface (GUI) powered by the **Allegro 5** library. 
 
-This project explicitly complies with the academic requirements for a grade of 5.0. The core mechanic (the snake) is built using a singly linked list with dynamic memory allocation (`malloc`/`free`). The project includes structured coding practices, effective use of pointers, custom data structures, and binary/text file-based operations for game state and score tracking.
+The core mechanic (the snake) is built using a singly linked list with dynamic memory allocation (`malloc`/`free`). The project includes structured coding practices, effective use of pointers, custom data structures, and binary/text file-based operations for game state and score tracking.
 
 ## 🏗️ Functional Requirements
 * Provide user interaction via a graphical user interface (Allegro 5 keyboard events).
@@ -46,25 +46,25 @@ The code is strictly modular and organized into independent components to ensure
 
 ## 🚩 Milestones
 
-### Milestone 1: Initial Project Setup & Modular Structure (Due: April 07, 2026)
+### Milestone 1: Initial Project Setup & Modular Structure
 * Define detailed project specification and functional requirements (#1).
 * Set up repository structure and initial modular framework in C (#2).
 * Configure compilation settings and package manager (#3).
 * Design and implement initial data structures including structs and pointers (#4).
 
-### Milestone 2: Core Game Logic & File Handling (Due: May 05, 2026)
+### Milestone 2: Core Game Logic & File Handling
 * Implement the main game logic, movement, and collision enforcement (#5).
 * Integrate dynamic memory management (linked lists) for game state handling (#6).
 * Develop file operations for game states, logs, and player statistics (#7).
 * Perform rigorous debugging, memory-leak checking, and preliminary testing (#8).
 
-### Milestone 3: GUI Development & Enhanced User Interaction (Due: June 11, 2026)
+### Milestone 3: GUI Development & Enhanced User Interaction
 * Implement graphical user interface using the Allegro 5 library (#9).
 * Introduce cursor/keyboard interaction and grid-based graphical constraints (#10).
 * Ensure comprehensive error handling for input validation and memory safety (#11).
 * Conduct integration, functional, and usability testing of GUI and core mechanics (#12).
 
-### Final Submission (Due: June 15, 2026)
+### Final Submission
 * Refactor and finalize codebase for readability, maintainability, and efficiency (#13).
 * Finalize documentation, inline commenting, and README updates (#14).
 * Project submission via the university platform (#15).
@@ -88,14 +88,10 @@ your_project/
 │   ├── file_operations.c
 │   └── main.c
 ├── logs/
-├── saves/
-├── tests/
-│   ├── test_logic.c
-│   └── test_gui.c
 ├── .gitignore
 └── README.md
 ```
-## ⚙️ Technical and Academic Compliance (Grade 5.0 Checklist)
+## ⚙️ Technical and Academic Compliance
 * Logical modularity: Separated logic, GUI, and file I/O for ease of maintenance.
 * Advanced dynamic structures: Use of pointers and a singly linked list to manage memory explicitly and efficiently as the snake grows.
 * Robust file operations: Functionality to store binary game states and text-based logs.
