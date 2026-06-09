@@ -72,9 +72,7 @@ The code is strictly modular and organized into independent components to ensure
 ## 📁 Repository Structure
 
 ```text
-your_project/
-├── assets/
-│   └── images/
+ProjektC/
 ├── docs/
 │   ├── project_specification.md
 │   └── user_manual.md
@@ -87,8 +85,11 @@ your_project/
 │   ├── gui.c
 │   ├── file_operations.c
 │   └── main.c
-├── logs/
+├── highscore.txt
+├── historia.txt
+├── .gitattributes
 ├── .gitignore
+├── ProjektC.slnx
 └── README.md
 ```
 ## ⚙️ Technical and Academic Compliance
