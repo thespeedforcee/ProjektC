@@ -9,7 +9,7 @@
 | Field | Details |
 | :--- | :--- |
 | **Course** | Low-Level Programming in C |
-| **Instructor** | Dr. Eng. Serhii Baraban |
+| **Instructor** | Dr hab. inż. A. Rybarczyk |
 | **Academic Year** | 2025/2026 |
 | **Format** | Pair project |
 
