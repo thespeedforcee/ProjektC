@@ -60,7 +60,7 @@ The code is strictly modular and organized into independent components to ensure
 
 ### Milestone 3: GUI Development & Enhanced User Interaction
 * Implement graphical user interface using the Allegro 5 library (#9).
-* Introduce cursor/keyboard interaction and grid-based graphical constraints (#10).
+* Introduce keyboard interaction and grid-based graphical constraints (#10).
 * Ensure comprehensive error handling for input validation and memory safety (#11).
 * Conduct integration, functional, and usability testing of GUI and core mechanics (#12).
 
