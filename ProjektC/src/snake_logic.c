@@ -8,6 +8,9 @@ void init_game(SnakeGame* game) {
     game->apple_x = 15;
     game->apple_y = 10;
 
+
+    // dynamic memory allocation for new snake segment
+// pointer is checked against NULL to prevent memory leaks
     SnakeSegment* new_head = (SnakeSegment*)malloc(sizeof(SnakeSegment));
     if (new_head != NULL) {
         new_head->x = 10;
